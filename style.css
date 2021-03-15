@@ -3,8 +3,9 @@ body {
 }
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 25px;
   text-align: center;
   padding: 5px;
   border: 2px solid lightblue;
@@ -15,10 +16,12 @@ body {
   width: 500px;
   height: 2000px;
   float: left;
+  color: antiquewhite
 }
 
 .text {
   border: 3px solid ghostwhite;
   background-color: beige;
   text-align: center;
+  overflow: auto;
 }
